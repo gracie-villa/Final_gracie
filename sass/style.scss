@@ -33,6 +33,15 @@
    cursor: pointer;
 }
 
+a[href] {
+   text-decoration: none;
+   color: black;
+}
+
+a:hover {
+   color: white;
+}
+
 nav {
    position:fixed;
    bottom: 50px;
@@ -56,6 +65,13 @@ li {
 li:hover {
    cursor: pointer;
 }
+
+#Nav {
+   background: url("../img/blue.jpg") no-repeat center center fixed;
+   background-size: 100% 100%;
+   background-position: left;
+}
+
 
 #About {
    background: url("../img/orange_closeup.png") no-repeat center center fixed;
