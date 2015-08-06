@@ -1,13 +1,13 @@
 @import 'base.scss';
 
-html {
+#main {
    background: url("../img/bluestroke.png") no-repeat center center fixed;
    background-size: 79% 100%;
    background-position: left;
 }
 
 
-div {
+.aread {
    text-align: right;
    padding-top: 40px;
    padding-right: 10px;
@@ -16,19 +16,21 @@ div {
 p {
    padding-top: 30px;
    padding-right: 10px;
-   text-align: right;
+   text-align: center;
    font-family: 'Roboto', sans-serif;
    font-size: 1.2em;
    line-height: 20px;
    font-weight: lighter;
+   float:right;
 }
 
 nav {
    position: fixed;
-   bottom: 20px;
-   right: 10px;
+   bottom: 35px;
+   right: 120px;
    margin: 0;
    padding: 0;
+   line-height: 50px;
 }
 
 .fa {
@@ -36,7 +38,9 @@ nav {
 }
 
 li {
-   line-height: 20px;
+   line-height: 30px;
 }
 
-
+li:hover {
+   cursor: pointer;
+}
