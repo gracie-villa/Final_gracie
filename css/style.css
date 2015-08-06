@@ -52,51 +52,27 @@ table {
   border-spacing: 0;
 }
 
-#main {
-  background: url("../img/bluestroke.png") no-repeat center center fixed;
-  background-size: 79% 100%;
-  background-position: left;
-}
-
 #aread {
   text-align: right;
-  padding-top: 35px;
-  padding-right: 10px;
-  padding-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
-#enter {
+h1 {
   letter-spacing: 18px;
+  text-align: right;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.2em;
+  font-size: 2em;
   font-weight: lighter;
   position: fixed;
-  bottom: 35px;
-  right: 45px;
-  border: solid black 1px;
-  padding: 12px 12px 12px 30px;
-  text-align: center;
-}
-
-#enter:hover {
-  color: white;
-  background-color: black;
-  cursor: pointer;
-}
-
-a[href] {
-  text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  color: white;
+  top: 12px;
+  right: 20px;
 }
 
 nav {
   position: fixed;
-  bottom: 50px;
-  right: 17px;
+  bottom: 40px;
+  right: 50px;
   margin: 0;
   padding: 0;
 }
@@ -110,7 +86,7 @@ li {
   font-size: 1.2em;
   font-weight: lighter;
   float: right;
-  padding-right: 45px;
+  padding-left: 68px;
 }
 
 li:hover {
