@@ -127,7 +127,7 @@ h1 {
 
 .homebutton {
   position: fixed;
-  bottom: 20px;
+  bottom: 35px;
   right: 128px;
   margin: 0;
   padding: 0;
@@ -142,9 +142,8 @@ h1 {
   padding-right: 3px;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.2em;
-  line-height: 25px;
   font-weight: lighter;
+  line-height: 20px;
   float: right;
   width: 21vw;
 }
