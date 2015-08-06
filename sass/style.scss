@@ -72,9 +72,18 @@ li:hover {
    background-position: left;
 }
 
+#headernav {
+   padding-top: 50px;
+   padding-right: 30px;
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+   font-size: 6em;
+   font-weight: lighter;
+   float:right;
+}
 
 #About {
-   background: url("../img/orange_closeup.png") no-repeat center center fixed;
+   background: url("../img/people1.png") no-repeat center center fixed;
    background-size: 79% 100%;
    background-position: left;
 }
@@ -137,7 +146,7 @@ span {
 }
 
 #contact {
-   background: url("../img/green_collage_2closeup.png") no-repeat center center fixed;
+   background: url("../img/people2.png") no-repeat center center fixed;
    background-size: 79% 100%;
    background-position: left;
 }
