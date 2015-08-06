@@ -65,7 +65,7 @@ li:hover {
    width: 21vw;
 }
 
-h1 {
+#headerabout {
    text-align: right;
    font-family: 'Roboto', sans-serif;
    font-size: 3.5em;
@@ -86,13 +86,39 @@ h1 {
    cursor: pointer;
 }
 
-#contact {
+#contactinfo {
+   padding-top: 50px;
+   padding-right: 3px;
+   text-align: center;
+   font-family: 'Roboto', sans-serif;
+   font-weight: lighter;
+   line-height: 25px;
+   float:right;
+   width: 21vw;
+}
+
+#contactinfo2 {
    padding-top: 30px;
    padding-right: 3px;
    text-align: center;
    font-family: 'Roboto', sans-serif;
    font-weight: lighter;
-   line-height: 20px;
+   line-height: 25px;
    float:right;
    width: 21vw;
+}
+
+#headercontact {
+   text-align: right;
+   font-family: 'Roboto', sans-serif;
+   font-size: 3.5em;
+   line-height: 20px;
+   font-weight: lighter;
+   padding: 65px 25px 0 0;
+}
+
+#contact {
+   background: url("../img/green_collage_2closeup.png") no-repeat center center fixed;
+   background-size: 79% 100%;
+   background-position: left;
 }
