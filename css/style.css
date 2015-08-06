@@ -59,9 +59,17 @@ html {
 }
 
 div {
-  text-align: left;
-  padding-top: 50px;
-  padding-left: 150px;
+  text-align: right;
+  padding-top: 40px;
+}
+
+p {
+  padding-top: 30px;
+  text-align: right;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  line-height: 20px;
+  font-weight: lighter;
 }
 
 nav {
@@ -74,4 +82,8 @@ nav {
 
 .fa {
   color: black;
+}
+
+li {
+  line-height: 20px;
 }
