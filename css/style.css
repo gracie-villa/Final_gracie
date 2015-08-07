@@ -207,11 +207,14 @@ div.galleryimages {
 
 h2 {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 12px;
   font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
   font-weight: lighter;
   letter-spacing: .1em;
   text-align: center;
-  line-height: 20px;
+}
+
+h3 {
+  padding-bottom: 25px;
 }
