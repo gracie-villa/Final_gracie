@@ -89,7 +89,7 @@ li:hover {
 
 #contactinfo {
    text-align: center;
-   padding: 500px 120px 0 135px;
+   padding: 488px 130px 50px 145px;
    font-family: 'Roboto', sans-serif;
    font-size: 1.2em;
    line-height: 25px;
@@ -108,12 +108,29 @@ span {
    letter-spacing: 1em;
    font-weight: lighter;
    position:fixed;
-   top: 419px;
-   left:145px;
+   top: 408px;
+   left:165px;
 }
 
 #contact {
    background: url("../img/people2.png") no-repeat center center fixed;
-   background-size: 85% 75%;
+   background-size: 80% 75%;
    background-position: top;
+}
+
+#gallery {
+   background: url("../img/personpurple.png") no-repeat center center fixed;
+   background-size: 80% 75%;
+   background-position: top;
+}
+
+#headergallery {
+   font-family: 'Roboto', sans-serif;
+   font-size: 6em;
+   color: white;
+   letter-spacing: 1em;
+   font-weight: lighter;
+   position:fixed;
+   top: 420px;
+   left:195px;
 }
