@@ -75,7 +75,7 @@ table {
 nav {
   position: fixed;
   bottom: 40px;
-  right: 70px;
+  right: 90px;
   margin: 0;
   padding: 0;
 }
@@ -89,7 +89,7 @@ li {
   font-size: 1.2em;
   font-weight: lighter;
   float: right;
-  padding-left: 100px;
+  padding-left: 120px;
 }
 
 li:hover {
@@ -100,6 +100,16 @@ li:hover {
   background: url("../img/blue.jpg") no-repeat center center fixed;
   background-size: 100% 100%;
   background-position: left;
+}
+
+footer {
+  position: fixed;
+  bottom: 3px;
+  left: 3px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: lighter;
+  text-transform: 90deg;
 }
 
 #About {
