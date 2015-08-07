@@ -7,7 +7,7 @@
    padding-bottom: 20px;
 }
 
-h1 {
+#navh1 {
    letter-spacing: 18px;
    text-align: right;
    font-family: 'Roboto', sans-serif;
@@ -48,49 +48,39 @@ li:hover {
    background-position: left;
 }
 
-#headernav {
-   padding-top: 50px;
-   padding-right: 30px;
-   text-align: center;
-   font-family: 'Roboto', sans-serif;
-   font-size: 6em;
-   font-weight: lighter;
-   float:right;
-}
 
 #About {
    background: url("../img/people1.png") no-repeat center center fixed;
-   background-size: 79% 100%;
-   background-position: left;
+   background-size: 80% 75%;
+   background-position: top;
 }
 
 #aboutblurb {
-   padding-top: 50px;
-   padding-right: 5px;
    text-align: center;
+   padding: 500px 120px 0 135px;
    font-family: 'Roboto', sans-serif;
    font-size: 1.2em;
    line-height: 25px;
    font-weight: lighter;
-   float:right;
-   width: 20vw;
+   width: 80vw;
 }
 
 #headerabout {
-   text-align: right;
    font-family: 'Roboto', sans-serif;
-   font-size: 3.5em;
-   line-height: 20px;
+   font-size: 6em;
+   color: white;
+   letter-spacing: 2em;
    font-weight: lighter;
-   padding: 65px 53px 0 0;
+   position:fixed;
+   top: 419px;
+   left:145px;
 }
 
 .homebutton {
-   position: fixed;
-   bottom: 35px;
-   right: 128px;
-   margin: 0;
-   padding: 0;
+   position: relative;
+   text-align: right;
+   padding-top: 20px;
+   padding-right: 54px;
 }
 
 .homebutton:hover {
