@@ -131,20 +131,31 @@ span {
    letter-spacing: .8em;
    font-weight: lighter;
    position:fixed;
-   top: 450px;
+   top: 403px;
    left:155px;
 }
 
 #gallerymain {
-   text-align: center;
-   padding: 500px 120px 50px 138px;
    font-family: 'Roboto', sans-serif;
    font-size: 1.2em;
-   line-height: 25px;
    font-weight: lighter;
+   text-align: center;
+   padding: 500px 120px 50px 142px;
    width: 78vw;
 }
 
-.gallerycontent {
-   list-style-position: right;
+div.galleryimages {
+   float:right;
+   padding-right: 100px;
+   padding-bottom: 50px;
+}
+
+h2 {
+   padding-top: 50px;
+   padding-bottom: 50px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 1.2em;
+   font-weight: lighter;
+   letter-spacing: .1em;
+   text-align: center;
 }
