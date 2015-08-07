@@ -107,23 +107,23 @@ li:hover {
 
 #aboutblurb {
   text-align: center;
-  padding: 500px 120px 0 135px;
+  padding: 500px 120px 50px 142px;
   font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
   line-height: 25px;
   font-weight: lighter;
-  width: 80vw;
+  width: 78vw;
 }
 
 #headerabout {
   font-family: 'Roboto', sans-serif;
   font-size: 6em;
   color: white;
-  letter-spacing: 2em;
+  letter-spacing: 1.8em;
   font-weight: lighter;
   position: fixed;
   top: 419px;
-  left: 145px;
+  left: 173px;
 }
 
 .homebutton {
@@ -139,7 +139,7 @@ li:hover {
 
 #contactinfo {
   text-align: center;
-  padding: 488px 130px 50px 145px;
+  margin: 488px 130px 50px 145px;
   font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
   line-height: 25px;
@@ -158,7 +158,7 @@ span {
   letter-spacing: 1em;
   font-weight: lighter;
   position: fixed;
-  top: 408px;
+  top: 419px;
   left: 165px;
 }
 
@@ -178,9 +178,23 @@ span {
   font-family: 'Roboto', sans-serif;
   font-size: 6em;
   color: white;
-  letter-spacing: 1em;
+  letter-spacing: .8em;
   font-weight: lighter;
   position: fixed;
-  top: 420px;
-  left: 195px;
+  top: 450px;
+  left: 155px;
+}
+
+#gallerymain {
+  text-align: center;
+  padding: 500px 120px 50px 138px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  line-height: 25px;
+  font-weight: lighter;
+  width: 78vw;
+}
+
+.gallerycontent {
+  list-style-position: right;
 }
