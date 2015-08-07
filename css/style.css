@@ -118,6 +118,7 @@ li:hover {
   line-height: 25px;
   font-weight: lighter;
   width: 78vw;
+  padding-bottom: 50px;
 }
 
 #headerabout {
@@ -144,7 +145,7 @@ li:hover {
 
 #contactinfo {
   text-align: center;
-  margin: 488px 130px 50px 145px;
+  margin: 510px 130px 50px 145px;
   font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
   line-height: 25px;
