@@ -55,24 +55,28 @@ table {
 #aread {
   text-align: right;
   padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 #navh1 {
+  position: fixed;
+  top: 12px;
+  right: 30px;
+}
+
+#port {
   letter-spacing: 18px;
-  text-align: right;
+  text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 2em;
   font-weight: lighter;
-  position: fixed;
-  top: 12px;
-  right: 20px;
+  padding-right: 20px;
 }
 
 nav {
   position: fixed;
   bottom: 40px;
-  right: 50px;
+  right: 70px;
   margin: 0;
   padding: 0;
 }
@@ -86,7 +90,7 @@ li {
   font-size: 1.2em;
   font-weight: lighter;
   float: right;
-  padding-left: 68px;
+  padding-left: 100px;
 }
 
 li:hover {
@@ -196,7 +200,7 @@ span {
 
 div.galleryimages {
   float: right;
-  padding-right: 100px;
+  padding-right: 338px;
   padding-bottom: 50px;
 }
 
@@ -208,4 +212,5 @@ h2 {
   font-weight: lighter;
   letter-spacing: .1em;
   text-align: center;
+  line-height: 20px;
 }
