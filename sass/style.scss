@@ -60,7 +60,9 @@ li:hover {
 
 #aboutblurb {
    text-align: center;
-   padding: 500px 120px 50px 142px;
+   position: absolute;
+   top:550px;
+   left:142px;
    font-family: 'Roboto', sans-serif;
    font-size: 1.2em;
    line-height: 25px;
