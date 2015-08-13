@@ -72,6 +72,16 @@ table {
   font-weight: lighter;
 }
 
+#port:hover {
+  text-shadow: 2px 2px 6px black;
+  cursor: pointer;
+}
+
+a[href] {
+  text-decoration: none;
+  color: black;
+}
+
 nav {
   position: fixed;
   bottom: 40px;
