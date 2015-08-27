@@ -26,19 +26,30 @@
    cursor: pointer;
 }
 
-a[href] {
-  text-decoration: none;
-  color: black;
-}
 
 #Nav1nav {
    font-family: 'Roboto', sans-serif;
    font-size: 3em;
    font-weight: lighter;
    position: center;
-   margin-top: 150px;
+   margin-top: 75px;
    text-align: center;
    color:blue;
+}
+
+p.navlist {
+   padding: 15px;
+}
+
+#Nav1 {
+   background: url("../img/nav.png") no-repeat center center fixed;
+   background-size: 50% 100%;
+   background-position: center;
+}
+
+a[href] {
+  text-decoration: none;
+  color: black;
 }
 
 li {
