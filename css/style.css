@@ -82,24 +82,18 @@ a[href] {
   color: black;
 }
 
-ul li.Nav1nav {
-  text-align: center;
+#Nav1nav {
   font-family: 'Roboto', sans-serif;
   font-size: 3em;
   font-weight: lighter;
-  position: fixed;
-  top: 419px;
-  left: 165px;
-  padding: 50px;
-  margin: 25px;
+  position: center;
+  margin-top: 150px;
+  text-align: center;
+  color: blue;
 }
 
 li {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.2em;
-  font-weight: lighter;
   float: right;
-  padding-left: 130px;
 }
 
 li:hover {
